@@ -4,7 +4,7 @@ let listaDeNumerosSorteados = [];
 
 // Define qual é o maior número que pode ser sorteado.
 // No caso, o número secreto pode ser qualquer um de 1 até 10.
-let numeroLimite = 10;
+let numeroLimite = 50;
 
 // Gera o primeiro número secreto assim que o jogo começa.
 // Esse número é o que o jogador precisa adivinhar.
@@ -32,13 +32,13 @@ function exibirTextoNaTela(tag, texto) {
 // o título do jogo e a instrução para o jogador.
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 50');
 }
 
 // Assim que o jogo começa (quando o código é carregado),
 // essas duas linhas mostram as mensagens iniciais.
 exibirTextoNaTela('h1', 'Jogo do número secreto');
-exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+exibirTextoNaTela('p', 'Escolha um número entre 1 e 50');
 
 // Essa é a função que é chamada quando o jogador clica no botão "Chutar".
 // Ela verifica se o número que ele digitou está certo ou errado.
